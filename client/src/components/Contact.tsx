@@ -97,10 +97,10 @@ export default function Contact() {
               Téléphone
             </h3>
             <p className="text-muted-foreground font-inter">
-              +33 (0) 1 23 45 67 89
+              +216 21 650 911 768
             </p>
             <p className="text-sm text-muted-foreground font-inter mt-1">
-              Lun-Ven: 8h-18h
+              +216 21 698 238 638
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function Contact() {
               Email
             </h3>
             <p className="text-muted-foreground font-inter">
-              contact@electro-bs.fr
+              electrobs2023@gmail.com
             </p>
             <p className="text-sm text-muted-foreground font-inter mt-1">
               Réponse sous 24h
@@ -123,10 +123,10 @@ export default function Contact() {
               Adresse
             </h3>
             <p className="text-muted-foreground font-inter">
-              123 Rue de l'Électricité
+              4 Rue Arrayhan, La Soukra
             </p>
             <p className="text-sm text-muted-foreground font-inter">
-              75000 Paris, France
+              Ariana 2086, Tunisie
             </p>
           </div>
         </div>
@@ -158,7 +158,7 @@ export default function Contact() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="jean@example.com"
+                  placeholder="electrobs2023@gmail.com"
                   className="w-full bg-white border-border text-foreground placeholder:text-muted-foreground focus:ring-primary"
                 />
               </div>
@@ -174,7 +174,7 @@ export default function Contact() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="+33 (0) 1 23 45 67 89"
+                  placeholder="+216 21 650 911 768"
                   className="w-full bg-white border-border text-foreground placeholder:text-muted-foreground focus:ring-primary"
                 />
               </div>

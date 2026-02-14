@@ -134,22 +134,22 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-sm text-gray-300">+33 (0) 1 23 45 67 89</p>
-                  <p className="text-xs text-gray-400">Lun-Ven: 8h-18h</p>
+                  <p className="text-sm text-gray-300">+216 21 650 911 768</p>
+                  <p className="text-xs text-gray-400">+216 21 698 238 638</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-sm text-gray-300">contact@electro-bs.fr</p>
+                  <p className="text-sm text-gray-300">electrobs2023@gmail.com</p>
                   <p className="text-xs text-gray-400">Réponse sous 24h</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-sm text-gray-300">123 Rue de l'Électricité</p>
-                  <p className="text-xs text-gray-400">75000 Paris, France</p>
+                  <p className="text-sm text-gray-300">4 Rue Arrayhan, La Soukra</p>
+                  <p className="text-xs text-gray-400">Ariana 2086, Tunisie</p>
                 </div>
               </div>
             </div>

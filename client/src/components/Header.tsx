@@ -39,6 +39,11 @@ export default function Header() {
               key={link.label}
               href={link.href}
               className="text-foreground hover:text-primary transition-colors duration-300 font-medium text-sm"
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector(link.href);
+                section?.scrollIntoView({ behavior: "smooth" });
+              }}
             >
               {link.label}
             </a>
