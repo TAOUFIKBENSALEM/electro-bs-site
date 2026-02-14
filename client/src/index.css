@@ -43,46 +43,46 @@
 }
 
 :root {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-600);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
+  --primary: #0066FF;
+  --primary-foreground: #ffffff;
+  --sidebar-primary: #0052CC;
+  --sidebar-primary-foreground: #ffffff;
+  --chart-1: #0066FF;
+  --chart-2: #0052CC;
+  --chart-3: #003D99;
+  --chart-4: #002966;
+  --chart-5: #001533;
   --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
-  --secondary: oklch(0.98 0.001 286.375);
-  --secondary-foreground: oklch(0.4 0.015 65);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.141 0.005 285.823);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.623 0.214 259.815);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.235 0.015 65);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.623 0.214 259.815);
+  --background: #ffffff;
+  --foreground: #2C3E50;
+  --card: #ffffff;
+  --card-foreground: #2C3E50;
+  --popover: #ffffff;
+  --popover-foreground: #2C3E50;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #2C3E50;
+  --muted: #e8e8e8;
+  --muted-foreground: #666666;
+  --accent: #FF6B35;
+  --accent-foreground: #ffffff;
+  --destructive: #FF4444;
+  --destructive-foreground: #ffffff;
+  --border: #e0e0e0;
+  --input: #f5f5f5;
+  --ring: #0066FF;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #2C3E50;
+  --sidebar-accent: #f5f5f5;
+  --sidebar-accent-foreground: #0066FF;
+  --sidebar-border: #e0e0e0;
+  --sidebar-ring: #0066FF;
 }
 
 .dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
+  --primary: #0066FF;
+  --primary-foreground: #ffffff;
+  --sidebar-primary: #0052CC;
+  --sidebar-primary-foreground: #ffffff;
   --background: oklch(0.141 0.005 285.823);
   --foreground: oklch(0.85 0.005 65);
   --card: oklch(0.21 0.006 285.885);
@@ -134,6 +134,14 @@
 }
 
 @layer components {
+  .font-poppins {
+    @apply font-['Poppins'];
+  }
+
+  .font-inter {
+    @apply font-['Inter'];
+  }
+
   /**
    * Custom container utility that centers content and adds responsive padding.
    *
